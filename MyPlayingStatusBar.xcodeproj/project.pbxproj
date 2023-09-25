@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C79C70F42AB7B34F00962FB7 /* MyPlayingStatusBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79C70F32AB7B34F00962FB7 /* MyPlayingStatusBarApp.swift */; };
+		C79C70F82AB7B35000962FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79C70F72AB7B35000962FB7 /* Assets.xcassets */; };
+		C79C70FB2AB7B35000962FB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79C70FA2AB7B35000962FB7 /* Preview Assets.xcassets */; };
+		C79C71222AB7C0B100962FB7 /* WebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = C79C71212AB7C0B100962FB7 /* WebSocket */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C79C71022AB7B35000962FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79C70E82AB7B34F00962FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79C70EF2AB7B34F00962FB7;
+			remoteInfo = MyPlayingStatusBar;
+		};
+		C79C710C2AB7B35000962FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79C70E82AB7B34F00962FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79C70EF2AB7B34F00962FB7;
+			remoteInfo = MyPlayingStatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C79C70F02AB7B34F00962FB7 /* MyPlayingStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayingStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79C70F32AB7B34F00962FB7 /* MyPlayingStatusBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlayingStatusBarApp.swift; sourceTree = "<group>"; };
+		C79C70F72AB7B35000962FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C79C70FA2AB7B35000962FB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C79C70FC2AB7B35000962FB7 /* MyPlayingStatusBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyPlayingStatusBar.entitlements; sourceTree = "<group>"; };
+		C79C71012AB7B35000962FB7 /* MyPlayingStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPlayingStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79C710B2AB7B35000962FB7 /* MyPlayingStatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPlayingStatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C79C70ED2AB7B34F00962FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79C71222AB7C0B100962FB7 /* WebSocket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79C70FE2AB7B35000962FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79C71082AB7B35000962FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C79C70E72AB7B34F00962FB7 = {
+			isa = PBXGroup;
+			children = (
+				C79C70F22AB7B34F00962FB7 /* MyPlayingStatusBar */,
+				C79C70F12AB7B34F00962FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C79C70F12AB7B34F00962FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C79C70F02AB7B34F00962FB7 /* MyPlayingStatusBar.app */,
+				C79C71012AB7B35000962FB7 /* MyPlayingStatusBarTests.xctest */,
+				C79C710B2AB7B35000962FB7 /* MyPlayingStatusBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C79C70F22AB7B34F00962FB7 /* MyPlayingStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				C79C70F32AB7B34F00962FB7 /* MyPlayingStatusBarApp.swift */,
+				C79C70F72AB7B35000962FB7 /* Assets.xcassets */,
+				C79C70FC2AB7B35000962FB7 /* MyPlayingStatusBar.entitlements */,
+				C79C70F92AB7B35000962FB7 /* Preview Content */,
+			);
+			path = MyPlayingStatusBar;
+			sourceTree = "<group>";
+		};
+		C79C70F92AB7B35000962FB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C79C70FA2AB7B35000962FB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C79C70EF2AB7B34F00962FB7 /* MyPlayingStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79C71152AB7B35000962FB7 /* Build configuration list for PBXNativeTarget "MyPlayingStatusBar" */;
+			buildPhases = (
+				C79C70EC2AB7B34F00962FB7 /* Sources */,
+				C79C70ED2AB7B34F00962FB7 /* Frameworks */,
+				C79C70EE2AB7B34F00962FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPlayingStatusBar;
+			packageProductDependencies = (
+				C79C71212AB7C0B100962FB7 /* WebSocket */,
+			);
+			productName = MyPlayingStatusBar;
+			productReference = C79C70F02AB7B34F00962FB7 /* MyPlayingStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C79C71002AB7B35000962FB7 /* MyPlayingStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79C71182AB7B35000962FB7 /* Build configuration list for PBXNativeTarget "MyPlayingStatusBarTests" */;
+			buildPhases = (
+				C79C70FD2AB7B35000962FB7 /* Sources */,
+				C79C70FE2AB7B35000962FB7 /* Frameworks */,
+				C79C70FF2AB7B35000962FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79C71032AB7B35000962FB7 /* PBXTargetDependency */,
+			);
+			name = MyPlayingStatusBarTests;
+			productName = MyPlayingStatusBarTests;
+			productReference = C79C71012AB7B35000962FB7 /* MyPlayingStatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C79C710A2AB7B35000962FB7 /* MyPlayingStatusBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79C711B2AB7B35000962FB7 /* Build configuration list for PBXNativeTarget "MyPlayingStatusBarUITests" */;
+			buildPhases = (
+				C79C71072AB7B35000962FB7 /* Sources */,
+				C79C71082AB7B35000962FB7 /* Frameworks */,
+				C79C71092AB7B35000962FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79C710D2AB7B35000962FB7 /* PBXTargetDependency */,
+			);
+			name = MyPlayingStatusBarUITests;
+			productName = MyPlayingStatusBarUITests;
+			productReference = C79C710B2AB7B35000962FB7 /* MyPlayingStatusBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C79C70E82AB7B34F00962FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C79C70EF2AB7B34F00962FB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C79C71002AB7B35000962FB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C79C70EF2AB7B34F00962FB7;
+					};
+					C79C710A2AB7B35000962FB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C79C70EF2AB7B34F00962FB7;
+					};
+				};
+			};
+			buildConfigurationList = C79C70EB2AB7B34F00962FB7 /* Build configuration list for PBXProject "MyPlayingStatusBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C79C70E72AB7B34F00962FB7;
+			packageReferences = (
+				C79C71202AB7C0B100962FB7 /* XCRemoteSwiftPackageReference "WebSocket.swift" */,
+			);
+			productRefGroup = C79C70F12AB7B34F00962FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C79C70EF2AB7B34F00962FB7 /* MyPlayingStatusBar */,
+				C79C71002AB7B35000962FB7 /* MyPlayingStatusBarTests */,
+				C79C710A2AB7B35000962FB7 /* MyPlayingStatusBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C79C70EE2AB7B34F00962FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79C70FB2AB7B35000962FB7 /* Preview Assets.xcassets in Resources */,
+				C79C70F82AB7B35000962FB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79C70FF2AB7B35000962FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79C71092AB7B35000962FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C79C70EC2AB7B34F00962FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79C70F42AB7B34F00962FB7 /* MyPlayingStatusBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79C70FD2AB7B35000962FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79C71072AB7B35000962FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C79C71032AB7B35000962FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79C70EF2AB7B34F00962FB7 /* MyPlayingStatusBar */;
+			targetProxy = C79C71022AB7B35000962FB7 /* PBXContainerItemProxy */;
+		};
+		C79C710D2AB7B35000962FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79C70EF2AB7B34F00962FB7 /* MyPlayingStatusBar */;
+			targetProxy = C79C710C2AB7B35000962FB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C79C71132AB7B35000962FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C79C71142AB7B35000962FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C79C71162AB7B35000962FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyPlayingStatusBar/MyPlayingStatusBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyPlayingStatusBar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busybox.MyPlayingStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C79C71172AB7B35000962FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyPlayingStatusBar/MyPlayingStatusBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyPlayingStatusBar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busybox.MyPlayingStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C79C71192AB7B35000962FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busybox.MyPlayingStatusBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPlayingStatusBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyPlayingStatusBar";
+			};
+			name = Debug;
+		};
+		C79C711A2AB7B35000962FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busybox.MyPlayingStatusBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPlayingStatusBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyPlayingStatusBar";
+			};
+			name = Release;
+		};
+		C79C711C2AB7B35000962FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busybox.MyPlayingStatusBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MyPlayingStatusBar;
+			};
+			name = Debug;
+		};
+		C79C711D2AB7B35000962FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busybox.MyPlayingStatusBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MyPlayingStatusBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C79C70EB2AB7B34F00962FB7 /* Build configuration list for PBXProject "MyPlayingStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79C71132AB7B35000962FB7 /* Debug */,
+				C79C71142AB7B35000962FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79C71152AB7B35000962FB7 /* Build configuration list for PBXNativeTarget "MyPlayingStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79C71162AB7B35000962FB7 /* Debug */,
+				C79C71172AB7B35000962FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79C71182AB7B35000962FB7 /* Build configuration list for PBXNativeTarget "MyPlayingStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79C71192AB7B35000962FB7 /* Debug */,
+				C79C711A2AB7B35000962FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79C711B2AB7B35000962FB7 /* Build configuration list for PBXNativeTarget "MyPlayingStatusBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79C711C2AB7B35000962FB7 /* Debug */,
+				C79C711D2AB7B35000962FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C79C71202AB7C0B100962FB7 /* XCRemoteSwiftPackageReference "WebSocket.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tesseract-one/WebSocket.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C79C71212AB7C0B100962FB7 /* WebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C79C71202AB7C0B100962FB7 /* XCRemoteSwiftPackageReference "WebSocket.swift" */;
+			productName = WebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C79C70E82AB7B34F00962FB7 /* Project object */;
+}
